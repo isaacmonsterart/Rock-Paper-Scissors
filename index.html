@@ -4,27 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Piedra, papel o tijera</title>
+    <title>Rock, paper, scissors</title>
     <script>
         // 1 es piedra, 2 es papel, 3 es tijera
         let jugador = 0;
         let pc = 2;
         jugador = prompt('Elige: 1 para piedra, 2 para papel, 3 para tijera');
-        // alert ('Elegiste ' + jugador);
+
         if(jugador == 1) {
-            alert('Elegiste piedra');
+            alert('Elegiste: 🥌 Piedra');
         } else if(jugador == 2) {
-            alert('Elegiste papel');
+            alert('Elegiste: 📄 Papel');
         } else if(jugador == 3) {
-            alert('Elegiste tijera');
+            alert('Elegiste: ✂ Tijera');
         } else {
             alert('Elegiste perder');
         }
+
+        if(pc == 1) {
+            alert('PC eligió: 🥌 Piedra');
+        } else if(pc == 2) {
+            alert('PC eligió: 📄 Papel');
+        } else if (pc == 3) {
+            alert('PC eligió: ✂ Tijera');
+        }
+
+
     </script>
 </head>
 <body>
     <h1>
-        Piedra, papel o tijera
+        Rock, paper, scissors    
     </h1>    
 </body>
 </html>
